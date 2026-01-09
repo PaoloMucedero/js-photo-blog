@@ -26,7 +26,7 @@ axios.get(endpoint)
                 <div class="col-lg-4">
                     <div class="box">
                         <img class="color-pin" src="./img/pin.svg" alt="pin">
-                        <img class="click" src="${element.url}" alt="img-example-1">
+                        <img class="card-img" src="${element.url}" alt="img-example-1">
                         <p class="flex-center">${element.title}, ${element.date}</p>
                     </div>
                 </div>
@@ -52,6 +52,3 @@ axios.get(endpoint)
         
     })
 
-click.addEventListener("click", ()=>{
-    
-})
