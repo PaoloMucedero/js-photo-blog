@@ -24,6 +24,11 @@ header {
     height: 150px;
 }
 
+img {
+    max-width: 100%;
+}
+
+
 h1 {
     font-size: 100px;
 }
